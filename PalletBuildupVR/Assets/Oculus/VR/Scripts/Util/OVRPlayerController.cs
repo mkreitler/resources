@@ -132,6 +132,9 @@ public class OVRPlayerController : MonoBehaviour
 	/// </summary>
 	public bool RotationEitherThumbstick = false;
 
+	[SerializeField]
+	private GameObject switchboard = null;
+
 	protected CharacterController Controller = null;
 	protected OVRCameraRig CameraRig = null;
 
@@ -358,12 +361,21 @@ public class OVRPlayerController : MonoBehaviour
 			if (dpad_move || Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
 				moveInfluence *= 2.0f;
 
-			Quaternion ort = transform.rotation;
+			//Quaternion ort = transform.rotation;
+
+			Transform root = CameraRig.trackingSpace;
+			Transform centerEye = CameraRig.centerEyeAnchor;
+			Quaternion ort = centerEye.rotation;
+
 			Vector3 ortEuler = ort.eulerAngles;
 			ortEuler.z = ortEuler.x = 0f;
 			ort = Quaternion.Euler(ortEuler);
 
-			if (moveForward)
+            if (switchboard != null) {
+                switchboard.SendMessage("SendBroadcast", "Rot: " + ortEuler.ToString());
+            }
+
+            if (moveForward)
 				MoveThrottle += ort * (transform.lossyScale.z * moveInfluence * Vector3.forward);
 			if (moveBack)
 				MoveThrottle += ort * (transform.lossyScale.z * moveInfluence * BackAndSideDampen * Vector3.back);

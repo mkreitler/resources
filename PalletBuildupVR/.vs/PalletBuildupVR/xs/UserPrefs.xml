@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{7D7047ED-5F80-FD72-781D-7E2E1F649809}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Oculus/VR/Scripts/OVRPlugin.cs">
+    <Files>
+      <File FileName="Assets/Oculus/VR/Scripts/Util/OVRPlayerController.cs" Line="377" Column="1" />
+      <File FileName="Assets/Scripts/DebugSphere.cs" />
+      <File FileName="Assets/Scripts/Switchboard.cs" />
+      <File FileName="Assets/Scripts/DebugText.cs" />
+      <File FileName="Assets/Scripts/Assert.cs" Line="2" Column="1" />
+      <File FileName="Assets/Oculus/SampleFramework/Editor/OculusSampleFrameworkUtil.cs" />
+      <File FileName="Assets/Oculus/VR/Scripts/OVRPlugin.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PalletBuildupVR" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Oculus" expanded="True">
+                <Node name="VR" expanded="True">
+                  <Node name="Scripts" expanded="True">
+                    <Node name="Util" expanded="True" />
+                    <Node name="OVRPlugin.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Scripts" expanded="True" />
+              <Node name="TextMesh Pro" expanded="True">
+                <Node name="Resources" expanded="True">
+                  <Node name="Shaders" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="10a7a905-ca60-4890-8f26-07c8f42fff01" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
