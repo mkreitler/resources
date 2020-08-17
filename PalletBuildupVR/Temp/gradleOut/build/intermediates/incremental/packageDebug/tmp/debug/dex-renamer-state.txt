@@ -1,0 +1,4 @@
+#Sun Aug 16 23:03:17 MDT 2020
+base.0=/Users/mkreitler/Projects/resources/PalletBuildupVR/Temp/gradleOut/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
