@@ -371,10 +371,6 @@ public class OVRPlayerController : MonoBehaviour
 			ortEuler.z = ortEuler.x = 0f;
 			ort = Quaternion.Euler(ortEuler);
 
-            if (switchboard != null) {
-                switchboard.SendMessage("SendBroadcast", "Rot: " + ortEuler.ToString());
-            }
-
             if (moveForward)
 				MoveThrottle += ort * (transform.lossyScale.z * moveInfluence * Vector3.forward);
 			if (moveBack)

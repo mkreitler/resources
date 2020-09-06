@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 526444126527674636}
   - component: {fileID: 526444126527674637}
   - component: {fileID: 526444126527674638}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GolfBag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142,7 +142,7 @@ GameObject:
   - component: {fileID: 526444126731483731}
   - component: {fileID: 526444126731483732}
   - component: {fileID: 526444126731483733}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: BallPocket
   m_TagString: Untagged
   m_Icon: {fileID: 0}

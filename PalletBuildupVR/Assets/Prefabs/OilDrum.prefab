@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6226516999580849014}
   - component: {fileID: 8686842061186916693}
   - component: {fileID: 8232875045060827174}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: OilDrum
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122,7 +122,7 @@ GameObject:
   - component: {fileID: 2048367178621439961}
   - component: {fileID: 3541499217393952449}
   - component: {fileID: 4545497037552216900}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
